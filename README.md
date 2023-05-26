@@ -2,6 +2,18 @@
 
 This Unity project is a very simple boids implementation.
 
+To download and use:
+
+1. Clone this repo!
+2. Open up the Unity Hub.
+3. Click **Add**.
+4. The folder you want is `Unity_Project_Files/Boids`: The `Boids` folder is the thing we actually developed in Unity together! This structure is just so Unity files etc. can be kept separate from, say, documentation or other project files. 
+5. Go ahead and open it up! 
+
+This project was created with **Unity 2020.3.20f1**. If you are using a different version of Unity it might need to convert the project files, which may take a little time but should not break anything. 
+
+## Scene / Object Structure
+
 Some general features to look out for:
 - The object representing a "boid" can be found in the Prefabs folder. This is a game object with a script as well as a child object which holds the 3D model. The child object is so that the 3D model can be rotated relative to the main game object. 
     - Boids also have a velocity parameter; the velocity in the prefab is the default starting velocity for boids.
